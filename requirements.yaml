@@ -1,0 +1,11 @@
+dependencies:
+- name: gitlab
+  version: '*.*.*'
+- name: minio
+  version: '*.*.*'
+- name: registry
+  version: '*.*.*'
+- name: gitlab-zoekt
+  version: 1.2.0
+  repository: https://charts.gitlab.io/
+  condition: gitlab-zoekt.install

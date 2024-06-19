@@ -1,0 +1,15 @@
+dependencies:
+- name: gitlab
+  repository: ""
+  version: '*.*.*'
+- name: minio
+  repository: ""
+  version: '*.*.*'
+- name: registry
+  repository: ""
+  version: '*.*.*'
+- name: gitlab-zoekt
+  repository: https://charts.gitlab.io/
+  version: 1.2.0
+digest: sha256:d658d765b08873d6819e60f4a26c6db401b885ddd5693de9530529eb0869d69d
+generated: "2024-06-07T16:44:42.664102+05:30"
